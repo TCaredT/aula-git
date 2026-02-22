@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    background-image: url(technology-background-design-in-white-color-free-vector.jpg);
+    border-image-repeat: no-repeat;
+    object-fit: fill;
+}
+
+* {
+    color:chartreuse;
+    text-shadow: 
+    0 0 7px rgb(130, 209, 52),
+    0 0 10px #fff,
+    0 0 20px chartreuse;
+    font-family: "Orbitron", sans-serif;
+}
+
+#caixa-formulario {
+    padding: 1rem;
+    border-radius: 15px;
+    background: linear-gradient(45deg, rgb(19, 19, 19), rgb(41, 41, 41));
+    width: 31%;
+    line-height: 2rem;
+    opacity: 93%;
+}
+
+#caixa-formulario h1{
+    text-align: center;
+    color:#fff;
+}
+
+#caixa-formulario input{
+    background: none;
+    border-color: chartreuse;
+    text-shadow: none;
+}
+
+#perguntas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#perguntas > * {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#perguntas label {
+    min-width: 150px; /* Largura fixa para todos os labels */
+    text-align: right;
+    color: white;
+}
+
+#perguntas input {
+    flex: 1; /* Ocupa o espaço restante */
+    padding: 8px;
+}
+
+button {
+    background-color: chartreuse;
+    border-color: rgb(130, 209, 52);
+    color: rgb(19, 19, 19);
+}
+
